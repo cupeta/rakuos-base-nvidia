@@ -5,7 +5,7 @@ COPY system_files /system_files
 
 # Base Image
 FROM quay.io/rakuos/rakuos-base-nvidia
--n##ra Other possible base images include:
+# Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:testing
 # FROM ghcr.io/ublue-os/aurora:stable
 # FROM ghcr.io/ublue-os/bluefin-nvidia-open:stable
